@@ -128,19 +128,56 @@ a:link {
 #aboutme {
   width: 100%;
   height: 800px;
-  background: #fff;
+  background: #eee;
   position: relative;
   margin: 50px 0;
 }
 
-#aboutme div {
-  width: 30%;
+#aboutme .a_wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#aboutme .a_wrap div {
+  width: 33.33333%;
   height: 400px;
   padding: 50px;
   float: left;
-  border: 1px solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+#aboutme .a_wrap div img {
+  margin-left: 80px;
+}
+
+#aboutme .a_wrap div h3 {
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+}
+
+#aboutme .a_wrap div h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+#aboutme .a_wrap div h4 span {
+  color: #d76735;
+}
+
+#aboutme .a_wrap div p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 
 #myskill {
@@ -151,9 +188,19 @@ a:link {
   margin: 50px 0;
 }
 
+#myskill h3 {
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+}
+
 #myskill .s_wrap {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 #myskill .s_wrap #skill1 {
