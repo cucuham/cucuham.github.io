@@ -226,16 +226,38 @@ a:link {
   margin: 50px 0;
 }
 
-#myportfolio div {
-  width: 30%;
+#myportfolio .f_wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#myportfolio .f_wrap div {
+  width: 33.33333%;
   height: 400px;
   float: left;
   border: 1px solid #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-align: center;
 }
 
-#myportfolio div img {
+#myportfolio .f_wrap div h3 {
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+}
+
+#myportfolio .f_wrap div p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+#myportfolio .f_wrap div img {
   width: 100%;
 }
 
