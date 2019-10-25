@@ -189,6 +189,7 @@ a:link {
 }
 
 #myskill h3 {
+  padding-top: 50px;
   text-align: center;
   line-height: 200px;
   font-size: 50px;
@@ -221,7 +222,7 @@ a:link {
 #myportfolio {
   width: 100%;
   height: 800px;
-  background: #666;
+  background: #ddd;
   position: relative;
   margin: 50px 0;
 }
@@ -235,13 +236,13 @@ a:link {
   width: 33.33333%;
   height: 400px;
   float: left;
-  border: 1px solid #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
 }
 
 #myportfolio .f_wrap div h3 {
+  padding-top: 50px;
   text-align: center;
   line-height: 200px;
   font-size: 50px;
@@ -250,11 +251,17 @@ a:link {
   font-family: 'Noto Serif', serif;
 }
 
-#myportfolio .f_wrap div p {
+#myportfolio .f_wrap div a p {
+  width: 300px;
+  margin: 0 auto;
   font-size: 18px;
   font-weight: bold;
   line-height: 40px;
   text-transform: uppercase;
+}
+
+#myportfolio .f_wrap div a p:hover {
+  border-bottom: 1px solid #000;
 }
 
 #myportfolio .f_wrap div img {
