@@ -48,24 +48,24 @@ function navbar(){
             $("#i_nav").css("background","none");
         }
         if(scroll>200){
-            $(".fadetitle1").stop().animate({"opacity":1},800);
+            $(".fadetitle1").stop().animate({"opacity":1},500);
         }else{
-            $(".fadetitle1").stop().animate({"opacity":0},500);
+            $(".fadetitle1").stop().animate({"opacity":0},300);
         }
         if(scroll>1000){
-            $(".fadetitle2").stop().animate({"opacity":1},800);
+            $(".fadetitle2").stop().animate({"opacity":1},500);
         }else{
-            $(".fadetitle2").stop().animate({"opacity":0},500);
+            $(".fadetitle2").stop().animate({"opacity":0},300);
         }
         if(scroll>1800){
-            $(".fadetitle3").stop().animate({"opacity":1},800);
+            $(".fadetitle3").stop().animate({"opacity":1},500);
         }else{
-            $(".fadetitle3").stop().animate({"opacity":0},500);
+            $(".fadetitle3").stop().animate({"opacity":0},300);
         }
         if(scroll>2600){
-            $(".fadetitle4").stop().animate({"opacity":1},800);
+            $(".fadetitle4").stop().animate({"opacity":1},500);
         }else{
-            $(".fadetitle4").stop().animate({"opacity":0},500);
+            $(".fadetitle4").stop().animate({"opacity":0},300);
         }
     });
 }
