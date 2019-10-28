@@ -358,6 +358,11 @@ a:link {
         .target {
             background: #ccc;
             height: 1000px;
+            div{
+                img{
+                    width:50%;
+                }
+            }
         }
 
         .target:nth-child(even) {

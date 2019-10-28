@@ -373,6 +373,10 @@ a:link {
   height: 1000px;
 }
 
+.wrap #p_main .target div img {
+  width: 50%;
+}
+
 .wrap #p_main .target:nth-child(even) {
   background: #eee;
 }
