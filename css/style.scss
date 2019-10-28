@@ -127,7 +127,7 @@ a:link {
 #aboutme {
     width: 100%;
     height: 800px;
-    background: #eee;
+    background: #fff;
     position: relative;
     margin: 50px 0;
     .a_wrap{
@@ -177,7 +177,7 @@ a:link {
 #myskill {
     width: 100%;
     height: 800px;
-    background: #333;
+    background: #fff;
     position: relative;
     margin: 50px 0;
     h3{
@@ -198,14 +198,29 @@ a:link {
         #skill1{
             width:30%;
             float:left;
+            p{
+                font-size:18px;
+                font-weight:bold;
+                line-height:30px;
+            }
         }
         #skill2{
             width:40%;
             float:left;
+            p{
+                font-size:18px;
+                line-height:30px;
+                font-weight:bold;
+            }
         }
         #skill3{
             width:30%;
             float:right;
+            p{
+                font-size:18px;
+                line-height:30px;
+                font-weight:bold;
+            }
         }
     }
 }
@@ -213,7 +228,7 @@ a:link {
 #myportfolio {
     width: 100%;
     height: 800px;
-    background: #ddd;
+    background: #ffffff;
     position: relative;
     margin: 50px 0;
     .f_wrap{
@@ -244,9 +259,12 @@ a:link {
                     font-weight:bold;
                     line-height:40px;
                     text-transform: uppercase;
+                    border:1px solid #fff;
+                    box-sizing: border-box;
                 }
                 p:hover{
-                    border-bottom:1px solid #000;
+                    border:1px solid #000;
+                    box-sizing: border-box;
                 }
             }
             img{
@@ -259,7 +277,7 @@ a:link {
 #contactme {
     width: 100%;
     height: 800px;
-    background: rgba(238, 238, 238, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     position: relative;
     margin: 50px 0;
     h3{
@@ -271,6 +289,22 @@ a:link {
         font-weight:bolder;
         text-transform: uppercase;
         font-family: 'Noto Serif', serif;
+    }
+    div{
+        border:5px solid #000;
+        width:30%;
+        height:300px;
+        line-height:100px;
+        margin:0 auto;
+        text-align: center;
+        font-size:30px;
+        h4{
+            letter-spacing: 3px;
+            span{
+                text-transform: uppercase;
+            }
+        }
+
     }
 }
 
@@ -401,3 +435,10 @@ a:link {
     background: #666;
     color: #fff;
 }
+
+
+
+
+
+
+

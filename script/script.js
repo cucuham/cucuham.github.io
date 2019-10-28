@@ -5,11 +5,18 @@ $(document).ready(function () {
     skill();
     portf();
     con();
+    menubar();
     $("#p_menu>a").click(function () {
         $(window).scrollTop(ranges[$(this).index()][0]);
         setActive(this);
     });
 });
+
+function menubar(){
+    $(".fa-bars").click(function(){
+        $("#m_gnb>ul").stop().slideDown();
+    });
+}
 
 function about(){
     $("#gnb>li:nth-child(1)").click(function(){
