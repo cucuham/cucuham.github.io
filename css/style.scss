@@ -144,6 +144,7 @@ a:link {
                 margin-left:80px;
             }
             h3{
+                opacity:0;
                 text-align: center;
                 line-height:200px;
                 font-size:50px;
@@ -180,6 +181,7 @@ a:link {
     position: relative;
     margin: 50px 0;
     h3{
+        opacity:0;
         padding-top:50px;
         text-align: center;
         line-height:200px;
@@ -225,6 +227,7 @@ a:link {
             box-sizing: border-box;
             text-align: center;
             h3{
+                opacity:0;
                 padding-top:50px;
                 text-align: center;
                 line-height:200px;
@@ -259,6 +262,16 @@ a:link {
     background: rgba(238, 238, 238, 0.5);
     position: relative;
     margin: 50px 0;
+    h3{
+        opacity:0;
+        padding-top:50px;
+        text-align: center;
+        line-height:200px;
+        font-size:50px;
+        font-weight:bolder;
+        text-transform: uppercase;
+        font-family: 'Noto Serif', serif;
+    }
 }
 
 .i_footer {

@@ -152,6 +152,7 @@ a:link {
 }
 
 #aboutme .a_wrap div h3 {
+  opacity: 0;
   text-align: center;
   line-height: 200px;
   font-size: 50px;
@@ -189,6 +190,7 @@ a:link {
 }
 
 #myskill h3 {
+  opacity: 0;
   padding-top: 50px;
   text-align: center;
   line-height: 200px;
@@ -242,6 +244,7 @@ a:link {
 }
 
 #myportfolio .f_wrap div h3 {
+  opacity: 0;
   padding-top: 50px;
   text-align: center;
   line-height: 200px;
@@ -274,6 +277,17 @@ a:link {
   background: rgba(238, 238, 238, 0.5);
   position: relative;
   margin: 50px 0;
+}
+
+#contactme h3 {
+  opacity: 0;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
 }
 
 .i_footer {
