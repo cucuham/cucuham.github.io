@@ -594,7 +594,7 @@ a:link {
   width: 25%;
 }
 
-.wrap #p_nav nav a {
+.wrap #p_nav nav li {
   height: 100px;
   line-height: 100px;
   font-size: 20px;
@@ -609,7 +609,7 @@ a:link {
   cursor: pointer;
 }
 
-.wrap #p_nav nav a:hover {
+.wrap #p_nav nav li:hover {
   background: #666;
   color: #fff;
 }

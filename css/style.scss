@@ -541,13 +541,7 @@ a:link {
 
     #p_nav {
         width: 25%;
-        position: relative;
-
-        nav {
-            position: fixed;
-            width: 25%;
-
-        a {
+        li {
             height: 100px;
             line-height:100px;
             font-size:20px;
@@ -562,7 +556,7 @@ a:link {
             cursor: pointer;
         }
 
-        a:hover {
+        li:hover {
             background: #666;
             color: #fff;
         }

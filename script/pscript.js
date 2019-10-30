@@ -7,7 +7,7 @@ $(document).ready(function () {
     con();
     menubar();
     topBtn();
-    $("#p_menu>a").click(function () {
+    $("#p_menu>li").click(function () {
         $(window).scrollTop(ranges[$(this).index()][0]);
         setActive(this);
     });
@@ -96,7 +96,7 @@ function nav() {
 }
 
 function setActive(elem) {
-    $(elem).parent().find('a').removeClass('active');
+    $(elem).parent().find('li').removeClass('active');
     $(elem).addClass('active');
 }
 
@@ -112,11 +112,8 @@ $(window).on('scroll', function () {
     var pos = $(window).scrollTop();
     $.each(ranges, function (i, range) {
         if (pos >= range[0] && pos <= range[1]) {
-            setActive($("#p_menu>a").eq(i)[0]);
+            setActive($("#p_menu>li").eq(i)[0]);
             return;
         }
     });
 });
-setInterval(function(){
-    $(".fa-mouse-pointer").toggle();
-  }, 250);
