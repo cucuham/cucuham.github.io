@@ -546,7 +546,6 @@ a:link {
         nav {
             position: fixed;
             width: 25%;
-        }
 
         a {
             height: 100px;
@@ -567,6 +566,13 @@ a:link {
             background: #666;
             color: #fff;
         }
+        #p_contact{
+            img{
+                width:25%;
+            }
+        }
+
+    }
     }
 }
 
