@@ -141,7 +141,7 @@ a:link {
 #aboutme .a_wrap div {
   width: 33.33333%;
   height: 400px;
-  padding: 50px;
+  padding: 100px 50px;
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
