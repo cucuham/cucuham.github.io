@@ -245,6 +245,57 @@ a:link {
                 font-weight:bold;
             }
         }
+        #skill4{
+            width:30%;
+            float:left;
+            margin:5% 0;           
+            img{
+                width:30%;
+                float:left;
+            }
+            p{
+                width:60%;
+                float:right;
+                margin-top:30px;
+                font-size:18px;
+                line-height:30px;
+                font-weight:bold;
+            }
+        }
+        #skill5{
+            width:30%;
+            float:left;
+            margin:5%;
+            img{
+                width:30%;
+                float:left;
+            }
+            p{
+                width:60%;
+                float:right;
+                margin-top:30px;
+                font-size:18px;
+                line-height:30px;
+                font-weight:bold;
+            }
+        }
+        #skill6{
+            width:30%;
+            float:left;
+            margin:5% 0;
+            img{
+                width:30%;
+                float:left;
+            }
+            p{
+                width:60%;
+                float:right;
+                margin-top:30px;
+                font-size:18px;
+                line-height:30px;
+                font-weight:bold;
+            }
+        }
     }
 }
 
@@ -351,14 +402,13 @@ a:link {
     font-size: 12px;
     text-transform: uppercase;
     z-index: 10;
-    position: relative;
     img{
         width:50px;
-        position: absolute;
+        position: fixed;
         bottom:120px;
-        left:50%;
-        transform:translate(-50%,0);
+        right:5%;
         opacity:0.5;
+        display:none;
     }
     img:hover{
         opacity:1;

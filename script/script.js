@@ -51,8 +51,10 @@ function navbar(){
         var scroll=$("html,body").scrollTop();
         if(scroll>50){
             $("#i_nav").css("background","#000");
+            $("#top_btn").css("display","block");
         }else{
             $("#i_nav").css("background","none");
+            $("#top_btn").css("display","none");
         }
         if(scroll>600){
             $(".fadetitle1").stop().animate({"opacity":1},500);
