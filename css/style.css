@@ -110,6 +110,7 @@ a:link {
   padding: 10px;
   width: 50%;
   margin: 0 auto;
+  font-family: 'Noto Serif', serif;
 }
 
 #visual #info h4 {
@@ -120,6 +121,7 @@ a:link {
           transform: translate(-50%, -50%);
   font-size: 15px;
   line-height: 30px;
+  letter-spacing: 1px;
   font-weight: bold;
   text-transform: uppercase;
   width: 100% !important;
