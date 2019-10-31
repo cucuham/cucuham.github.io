@@ -5,23 +5,12 @@ $(document).ready(function () {
     skill();
     portf();
     con();
-    menubar();
     topBtn();
-    $("#p_menu>a").click(function () {
-        $(window).scrollTop(ranges[$(this).index()][0]);
-        setActive(this);
-    });
 });
 
 function topBtn(){
     $("#top_btn").click(function(){
         $("html,body").animate({scrollTop:0});
-    });
-}
-
-function menubar(){
-    $(".fa-bars").click(function(){
-        $("#m_gnb>ul").stop().slideDown();
     });
 }
 
@@ -109,28 +98,6 @@ function nav() {
     });
 }
 
-function setActive(elem) {
-    $(elem).parent().find('a').removeClass('active');
-    $(elem).addClass('active');
-}
-
-var ranges = [
-    [0, 1000],
-    [1001, 2000],
-    [2001, 3000],
-    [3001, 4000],
-    [4001, 9999]
-];
-
-$(window).on('scroll', function () {
-    var pos = $(window).scrollTop();
-    $.each(ranges, function (i, range) {
-        if (pos >= range[0] && pos <= range[1]) {
-            setActive($("#p_menu>a").eq(i)[0]);
-            return;
-        }
-    });
-});
 setInterval(function(){
     $(".fa-mouse-pointer").toggle();
   }, 250);
