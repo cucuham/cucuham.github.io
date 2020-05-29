@@ -76,14 +76,6 @@ a:link {
   z-index: -1;
 }
 
-#visual #visualimg img {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-}
-
 #visual #info {
   background: rgba(0, 0, 0, 0.5);
   width: 600px;
@@ -129,7 +121,7 @@ a:link {
 
 #visual #scrollDown {
   position: absolute;
-  top: 700px;
+  top: 600px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
