@@ -45,7 +45,7 @@ function navbar(){
             $("#i_nav").css("background","none");
             $("#top_btn").css("display","none");
         }
-        if(scroll>600){
+        if(scroll>500){
             $(".fadetitle1").stop().animate({"opacity":1},500);
             $("#gnb>li:nth-child(1)").addClass("whereis");
             $("#gnb>li:nth-child(1)").siblings().removeClass("whereis");
@@ -53,7 +53,7 @@ function navbar(){
             $(".fadetitle1").stop().animate({"opacity":0},300);
             $("#gnb>li:nth-child(1)").removeClass("whereis");
         }
-        if(scroll>1450){
+        if(scroll>1350){
             $(".fadetitle2").stop().animate({"opacity":1},500);
             $("#gnb>li:nth-child(2)").addClass("whereis");
             $("#gnb>li:nth-child(2)").siblings().removeClass("whereis");
@@ -61,7 +61,7 @@ function navbar(){
             $(".fadetitle2").stop().animate({"opacity":0},300);
             $("#gnb>li:nth-child(2)").removeClass("whereis");
         }
-        if(scroll>2300){
+        if(scroll>2200){
             $(".fadetitle3").stop().animate({"opacity":1},500);
             $("#gnb>li:nth-child(3)").addClass("whereis");
             $("#gnb>li:nth-child(3)").siblings().removeClass("whereis");
@@ -69,7 +69,7 @@ function navbar(){
             $(".fadetitle3").stop().animate({"opacity":0},300);
             $("#gnb>li:nth-child(3)").removeClass("whereis");
         }
-        if(scroll>3150){
+        if(scroll>3050){
             $(".fadetitle4").stop().animate({"opacity":1},500);
             $("#gnb>li:nth-child(4)").addClass("whereis");
             $("#gnb>li:nth-child(4)").siblings().removeClass("whereis");
