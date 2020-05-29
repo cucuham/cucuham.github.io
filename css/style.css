@@ -67,7 +67,7 @@ a:link {
 
 #visual {
   width: 100%;
-  min-height: 800px;
+  min-height: 850px;
 }
 
 #visual #visualimg {
@@ -91,7 +91,7 @@ a:link {
 
 #visual #info h3 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -107,7 +107,7 @@ a:link {
 
 #visual #info h4 {
   position: absolute;
-  top: 65%;
+  top: 62%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -121,7 +121,7 @@ a:link {
 
 #visual #scrollDown {
   position: absolute;
-  top: 600px;
+  top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -193,7 +193,7 @@ a:link {
 
 #aboutme {
   width: 100%;
-  height: 800px;
+  height: 850px;
   background: #fff;
   position: relative;
   margin: 50px 0;
@@ -249,7 +249,7 @@ a:link {
 
 #myskill {
   width: 100%;
-  height: 800px;
+  height: 850px;
   background: #fff;
   position: relative;
   margin: 50px 0;
@@ -391,7 +391,7 @@ a:link {
 
 #myportfolio {
   width: 100%;
-  height: 800px;
+  height: 850px;
   background: #ffffff;
   position: relative;
   margin: 50px 0;
